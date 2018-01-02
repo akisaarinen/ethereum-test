@@ -1,0 +1,14 @@
+{
+  "name": "ethereum-test",
+  "scripts": {
+    "ganache": "node_modules/.bin/ganache-cli",
+    "truffle-migrate": "node_modules/.bin/truffle migrate --reset"
+  },
+  "version": "1.0.0",
+  "author": "Aki Saarinen <aki.saarinen@reaktor.co.jp>",
+  "license": "",
+  "devDependencies": {
+    "ganache-cli": "^6.0.3",
+    "truffle": "^4.0.4"
+  }
+}
