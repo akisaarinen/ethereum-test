@@ -1,5 +1,5 @@
-var MetaCoin = artifacts.require("./MetaCoin.sol");
+var CookieJar = artifacts.require("./CookieJar.sol");
 
 module.exports = function(deployer) {
-    deployer.deploy(MetaCoin);
+    deployer.deploy(CookieJar);
 };
